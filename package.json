@@ -4,6 +4,7 @@
   "scripts": {
     "start": "cross-env NODE_ENV=development parcel index.html ",
     "build": "cross-env NODE_ENV=production parcel build index.html --experimental-scope-hoisting --detailed-report --public-url /",
+    "build:working": "cross-env NODE_ENV=production parcel build index.html --public-url /",
     "serve": "serve dist"
   },
   "dependencies": {
